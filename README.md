@@ -6,21 +6,21 @@ ____
 
 - **Установите git на локальный компьютер:**
     - Для установки ***git*** на ***Ubuntu*** выполните команду:
-	`$ sudo apt install git`
+	    `$ sudo apt install git`
 	- Для ***Mac*** просто в терминале вбейте:
-	`$ git --version`
+	    `$ git --version`
 	Если Git не установлен, вам будет предложено его установить.
 	- Если у вас ***Windows***, то перейдите на страницу https://git-scm.com/download/win и загрузка запустится автоматически.
 	- Чтобы убедиться, что ***git*** установился корректно в командной строке выполните:
-	`$ git --version`
+	    `$ git --version`
 - **Настройте связь git c cервисом GitHub:**
 	1. Создайте локальную директорию (например C:\trello-rep) и перейдите в нее
 	2. Запустите консоль внутри этой директории и выполните команду:
-	`$ git clone https://github.com/Eliseev88/task-manager-trello'
+	    `$ git clone https://github.com/Eliseev88/task-manager-trello`
 	3. Зайдите внутрь скаченного репозитория командой:
-	`cd task-manager-trello'
+	    `cd task-manager-trello`
 	4. Проверьте правильность адресов для чтения и записи командой:
-	`$ git remote -v`
+	    `$ git remote -v`
 	Результат должен быть:
 	```
 		origin  https://github.com/Eliseev88/task-manager-trello (fetch)
